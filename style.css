@@ -112,4 +112,7 @@ body {
     .search-box{
         gap: 0.5rem;
     }
+    .results .word .pos{
+        font-size: 1.5rem;
+    }
 }
