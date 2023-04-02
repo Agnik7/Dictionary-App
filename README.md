@@ -17,3 +17,4 @@ This is a simple dictionary app. It returns the meaning of the word given as inp
 - Use of `position:fixed`
 - Making a webpage responsive
 - Practising how to fetch data from API
+- Handling keyboard events
