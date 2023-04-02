@@ -18,3 +18,5 @@ This is a simple dictionary app. It returns the meaning of the word given as inp
 - Making a webpage responsive
 - Practising how to fetch data from API
 - Handling keyboard events
+
+## Live-Site URL: [Dictionary App](https://agnik7.github.io/Dictionary-App/)
