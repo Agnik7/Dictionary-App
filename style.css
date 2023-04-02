@@ -48,7 +48,6 @@ body {
     border: none;
     outline: none;
     border-bottom: 2px solid var(--dark-orange);
-    font-size: 1.5rem;
 }
 .search-box input::placeholder{
     color: var(--dark-brown);
