@@ -3,10 +3,8 @@ const results = document.getElementById("results");
 const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
 let input1 = document.getElementById("inputWord").innerText;
-console.log(typeof(input1));
 function getData(){
     let input = document.getElementById("inputWord").value;
-    console.log(input);
     fetch(`${url}${input}`)
         .then((response) => response.json())
         .then((data) => {
