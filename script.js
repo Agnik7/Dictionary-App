@@ -14,13 +14,13 @@ function getData(){
             results.innerHTML = `
             <div class="word">
                     <h3>${input}</h3>
+                    <h3 class="pos">${data[0].phonetic}</h3>
                     <button onclick="playSound()">
                         <i class="fa fa-volume-up" style="color:black"></i>
                     </button>
                 </div>
                 <div class="details">
                     <p>${data[0].meanings[0].partOfSpeech}</p>
-                    <p>${data[0].phonetic}</p>
                 </div>
                 <p class="word-meaning">
                     ${data[0].meanings[0].definitions[0].definition}
