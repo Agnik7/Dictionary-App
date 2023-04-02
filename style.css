@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --white: hsl(0 0% 100%);
+    --orange: hsl(39, 100%, 50%);
+    --dark-orange: hsl(39, 100%, 30%);
+    --yellow: hsl(60, 100%, 55%);
+    --dark-purple: hsl(247, 50%, 20%);
+    --light-purple: hsl(247, 50%, 40%);
+    --dark-brown: hsl(0, 59%, 31%);
+    --light-brown: hsl(0, 59%, 51%);
+  }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    font-size: 20px;
+    background-color: var(--orange);
+}
+main{
+    min-height: 93vh;
+    display: grid;
+    place-items: center;
+}
+.page-title{
+    min-width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    background-color: var(--yellow);
+    max-width: 35rem;
+    padding: 2rem 0rem 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 3rem hsl(0, 100%, 40%);
+}
+.search-box {
+    font-size: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-inline: 3rem;
+}
+.search-box input {
+    background-color: hsl(247, 50%, 20%, 0);
+    padding-inline: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--dark-orange);
+    font-size: 1.5rem;
+}
+.search-box input::placeholder{
+    color: var(--dark-brown);
+}
+.search-box button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search-box button:hover{
+    cursor: pointer;
+}
+.search-image{
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+}
+.results {
+    margin-inline: 4rem;
+}
+.results h3 {
+    font-size: 30px;
+    color: var(--dark-purple);
+}
+.results .word {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.results button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.results .details {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--light-purple);
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: var(--dark-purple);
+}
+.word-example {
+    color: var(--light-brown);
+    font-style: italic;
+    border-left: 5px solid var(--dark-brown);
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
