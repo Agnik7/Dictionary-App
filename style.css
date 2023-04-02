@@ -36,7 +36,6 @@ body {
     box-shadow: 0 1rem 3rem hsl(0, 100%, 40%);
 }
 .search-box {
-    font-size: 2rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
