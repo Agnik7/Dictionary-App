@@ -6,7 +6,7 @@ This is a simple dictionary app. It returns the meaning of the word given as inp
 ## Languages Used
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript
 
 ## Features
 - Responsive site
@@ -17,5 +17,8 @@ This is a simple dictionary app. It returns the meaning of the word given as inp
 - Making a webpage responsive
 - Practising how to fetch data from API
 - Handling keyboard events
+
+## Drawbacks
+- Some words that are present in the English dictionary, are not covered by the Dictionary API, so there meanings cannot be displayed.
 
 ## Live-Site URL: [Dictionary App](https://agnik7.github.io/Dictionary-App/)
