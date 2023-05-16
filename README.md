@@ -19,6 +19,6 @@ This is a simple dictionary app. It returns the meaning of the word given as inp
 - Handling keyboard events
 
 ## Drawbacks
-- Some words that are present in the English dictionary, are not covered by the Dictionary API, so there meanings cannot be displayed.
+- Some words that are present in the English dictionary, are not covered by the Dictionary API, so their meanings cannot be displayed.
 
 ## Live-Site URL: [Dictionary App](https://agnik7.github.io/Dictionary-App/)
